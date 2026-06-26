@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" rx="28" fill="#0b1027"/>
+  <text x="32" y="44" fill="#ffd15c" font-size="28" font-family="Arial Black,Arial">FrancFarm Deluxe — Sprite Direction</text>
+  <g transform="translate(55 90)">
+    <rect width="120" height="120" rx="24" fill="#1e293b"/><text x="60" y="105" text-anchor="middle" fill="#a7b0ca" font-family="Arial" font-size="14">Francis idle</text>
+    <circle cx="62" cy="61" r="26" fill="#fff7ed"/><ellipse cx="52" cy="78" rx="30" ry="34" fill="#f8fafc"/><path d="M54 31c0-18 13-22 20-10 7-13 23-7 19 8 14-1 18 10 8 17" fill="#ef4444"/><path d="M82 56l30 11-30 13z" fill="#f97316"/><circle cx="73" cy="53" r="4" fill="#111827"/>
+  </g>
+  <g transform="translate(205 90)"><rect width="120" height="120" rx="24" fill="#1e293b"/><text x="60" y="105" text-anchor="middle" fill="#a7b0ca" font-family="Arial" font-size="14">Crop stages</text><path d="M26 82c0-20 10-34 16-49" stroke="#86efac" stroke-width="7" stroke-linecap="round"/><path d="M57 84c4-27 18-43 25-58" stroke="#facc15" stroke-width="7" stroke-linecap="round"/><path d="M91 84c-1-29 10-50 20-64" stroke="#ffd15c" stroke-width="8" stroke-linecap="round"/><circle cx="98" cy="31" r="10" fill="#ffd15c"/></g>
+  <g transform="translate(355 90)"><rect width="120" height="120" rx="24" fill="#1e293b"/><text x="60" y="105" text-anchor="middle" fill="#a7b0ca" font-family="Arial" font-size="14">Building</text><rect x="28" y="50" width="64" height="46" rx="9" fill="#f97316"/><path d="M20 53l40-35 42 35z" fill="#fdba74"/><rect x="51" y="72" width="18" height="24" rx="4" fill="#1f2937"/><text x="60" y="48" text-anchor="middle" font-size="24">🐔</text></g>
+  <g transform="translate(505 90)"><rect width="120" height="120" rx="24" fill="#1e293b"/><text x="60" y="105" text-anchor="middle" fill="#a7b0ca" font-family="Arial" font-size="14">Premium</text><path d="M62 18l14 28 31 5-23 22 6 31-28-15-28 15 6-31-23-22 31-5z" fill="#ffd15c"/><text x="60" y="74" text-anchor="middle" font-size="25">$F</text></g>
+  <g transform="translate(655 90)"><rect width="120" height="120" rx="24" fill="#1e293b"/><text x="60" y="105" text-anchor="middle" fill="#a7b0ca" font-family="Arial" font-size="14">Delivery</text><rect x="28" y="54" width="64" height="34" rx="8" fill="#38bdf8"/><circle cx="42" cy="92" r="9" fill="#0f172a"/><circle cx="82" cy="92" r="9" fill="#0f172a"/><text x="60" y="45" text-anchor="middle" font-size="28">📦</text></g>
+  <text x="32" y="270" fill="#e2e8f0" font-family="Arial" font-size="20">Direction visuelle : isométrique mobile, couleurs dorées $FRANC, formes rondes, effets lumineux, UI Telegram-ready.</text>
+  <text x="32" y="310" fill="#a7b0ca" font-family="Arial" font-size="16">Ce fichier sert de guide d’assets. Le rendu principal est vectoriel via canvas pour rester léger et rapide sur GitHub Pages.</text>
+</svg>
