@@ -1,0 +1,13 @@
+{
+  "name": "Francis Farm",
+  "short_name": "FrancisFarm",
+  "description": "Farm/city builder gratuit pour Telegram avec Francis le Coq.",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "orientation": "portrait-primary",
+  "background_color": "#071625",
+  "theme_color": "#0b1f34",
+  "icons": [
+    { "src": "assets/ui/icon.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

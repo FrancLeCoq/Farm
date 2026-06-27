@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1f34" />
+  <title>Francis Farm — Telegram Farm Builder</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <canvas id="gameCanvas" aria-label="Francis Farm"></canvas>
+
+    <header id="hud" class="glass">
+      <div class="brand">
+        <img src="assets/ui/icon.png" alt="Francis" />
+        <div>
+          <strong>Francis Farm</strong>
+          <small id="dayLabel">Jour 1 · Le poulailler se réveille</small>
+        </div>
+      </div>
+      <div class="meters">
+        <span title="Pièces"><b>🪙</b><em id="coins">0</em></span>
+        <span title="Franc Gems gratuits"><b>💎</b><em id="gems">0</em></span>
+        <span title="Niveau"><b>⭐</b><em id="level">1</em></span>
+        <span title="Habitants"><b>🐔</b><em id="pop">0</em></span>
+      </div>
+      <div class="xpbar"><i id="xpFill"></i></div>
+    </header>
+
+    <aside id="francis" class="glass">
+      <img id="francisMood" src="assets/characters/francis_pilot.png" alt="Francis le Coq" />
+      <p id="francisLine">Bienvenue à la ferme. Plante, récolte, fabrique, livre. Tout est gratuit.</p>
+    </aside>
+
+    <nav id="toolbar" class="glass" aria-label="Actions">
+      <button class="tool active" data-tool="inspect">👆<span>Action</span></button>
+      <button class="tool" data-tool="wheat">🌾<span>Blé</span></button>
+      <button class="tool" data-tool="corn">🌽<span>Maïs</span></button>
+      <button class="tool" data-tool="carrot">🥕<span>Carotte</span></button>
+      <button class="tool" data-tool="build">🏗️<span>Bâtir</span></button>
+      <button id="ordersBtn" class="tool">🚁<span>Commandes</span></button>
+      <button id="factoryBtn" class="tool">🏭<span>Usines</span></button>
+      <button id="inventoryBtn" class="tool">📦<span>Stock</span></button>
+    </nav>
+
+    <section id="objective" class="glass">
+      <strong>Objectif</strong>
+      <span id="questText">Plante 3 blés.</span>
+      <button id="claimQuest" disabled>Réclamer</button>
+    </section>
+
+    <div id="toast" role="status" aria-live="polite"></div>
+
+    <div id="modalBackdrop" class="hidden"></div>
+    <dialog id="panel" class="glass">
+      <button id="closePanel" class="close" aria-label="Fermer">×</button>
+      <h2 id="panelTitle">Panneau</h2>
+      <div id="panelBody"></div>
+    </dialog>
+
+    <section id="boot" class="boot">
+      <div class="boot-card glass">
+        <img src="assets/characters/francis_cover.png" alt="Francis" />
+        <h1>Francis Farm</h1>
+        <p>Une ferme / ville façon mobile builder, repensée pour Telegram et pour Francis le Coq.</p>
+        <button id="startGame">Entrer dans le poulailler</button>
+      </div>
+    </section>
+  </div>
+
+  <script async src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
